@@ -24,7 +24,7 @@ export const META_DESCRIPTION =
   'TeknoTEP Livestream merupakan wadah kolaborasi pada webinar, podcast dan segala bentuk pertemuan virtual para teknolog pendidikan';
 export const SITE_DESCRIPTION =
   'Platform Berbagi Pengetahuan Berbasis Multimedia';
-export const DATE = '01 January 2022';
+export const DATE = 'Jadwal Tentatif';
 export const SHORT_DATE = 'Jan 1 - 9:00am PST';
 export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
@@ -41,11 +41,11 @@ export const REPO = 'https://github.com/teknologi-pendidikan';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Live Stage',
+    name: 'Interactive Studio',
     route: '/stage/a'
   },
   {
-    name: 'Vercel Stage',
+    name: 'Livestream',
     route: '/stage/c'
   },
   {
@@ -55,15 +55,16 @@ export const NAVIGATION = [
   {
     name: 'Speakers',
     route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
   }
+  // ,
+  // {
+  //   name: 'Expo',
+  //   route: '/expo'
+  // },
+  // {
+  //   name: 'Jobs',
+  //   route: '/jobs'
+  // }
 ];
 
 export type TicketGenerationState = 'default' | 'loading';

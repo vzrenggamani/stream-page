@@ -53,7 +53,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Source Code
+              TeknoTEP Repository
             </a>
           </p>
           <div className={styles['footer-separator']} />
